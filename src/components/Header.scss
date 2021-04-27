@@ -1,0 +1,25 @@
+.header {
+  &__nav {
+    background-color: #43aa8b;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__nav-lists {
+    display: flex;
+    margin-right: 2rem;
+  }
+
+  &__list {
+    list-style: none;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+  }
+}
