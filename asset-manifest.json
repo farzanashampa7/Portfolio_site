@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio_site/static/css/main.039c895f.chunk.css",
+    "main.js": "/Portfolio_site/static/js/main.2b111a1a.chunk.js",
+    "main.js.map": "/Portfolio_site/static/js/main.2b111a1a.chunk.js.map",
+    "runtime-main.js": "/Portfolio_site/static/js/runtime-main.8e3d244e.js",
+    "runtime-main.js.map": "/Portfolio_site/static/js/runtime-main.8e3d244e.js.map",
+    "static/js/2.b924fde7.chunk.js": "/Portfolio_site/static/js/2.b924fde7.chunk.js",
+    "static/js/2.b924fde7.chunk.js.map": "/Portfolio_site/static/js/2.b924fde7.chunk.js.map",
+    "index.html": "/Portfolio_site/index.html",
+    "static/css/main.039c895f.chunk.css.map": "/Portfolio_site/static/css/main.039c895f.chunk.css.map",
+    "static/js/2.b924fde7.chunk.js.LICENSE.txt": "/Portfolio_site/static/js/2.b924fde7.chunk.js.LICENSE.txt",
+    "static/media/Brainflix_2.00204eb2.png": "/Portfolio_site/static/media/Brainflix_2.00204eb2.png",
+    "static/media/Budgetary.af912c92.PNG": "/Portfolio_site/static/media/Budgetary.af912c92.PNG",
+    "static/media/Farzana_Shampa.227e2c4b.jpg": "/Portfolio_site/static/media/Farzana_Shampa.227e2c4b.jpg",
+    "static/media/Rock-Paper-Scissor.f66104a4.PNG": "/Portfolio_site/static/media/Rock-Paper-Scissor.f66104a4.PNG",
+    "static/media/amazon-clone-2.2ea5621d.png": "/Portfolio_site/static/media/amazon-clone-2.2ea5621d.png",
+    "static/media/logo-github.4f47f030.svg": "/Portfolio_site/static/media/logo-github.4f47f030.svg",
+    "static/media/logo-linkedin.8adc6acd.svg": "/Portfolio_site/static/media/logo-linkedin.8adc6acd.svg",
+    "static/media/mail-unread-outline.89722b40.svg": "/Portfolio_site/static/media/mail-unread-outline.89722b40.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e3d244e.js",
+    "static/js/2.b924fde7.chunk.js",
+    "static/css/main.039c895f.chunk.css",
+    "static/js/main.2b111a1a.chunk.js"
+  ]
+}
