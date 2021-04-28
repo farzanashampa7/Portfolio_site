@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="about">
       <div className="about__info">
-        <div>
+        <div className="about__details">
           <p className="about__hello">Hello, I am</p>
           <h1 className="about__header">Farzana Akter Shampa</h1>
           <h3 className="about__sub-header">Web Developer</h3>

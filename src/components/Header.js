@@ -7,6 +7,7 @@ function Header() {
       <nav className="header__nav">
         <ul className="header__nav-lists">
           <li className="header__list">About</li>
+
           <li className="header__list">Projects</li>
           <li className="header__list">Contact</li>
         </ul>

@@ -1,25 +1,67 @@
+@use '../partials/variables' as *;
+@use '../partials/mixins' as *;
+
 .project {
   display: flex;
+  flex: 1;
   width: 70%;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   border-radius: 0.4rem;
   margin-bottom: 3rem;
+  background-color: #ffffc0;
+
+  @include tablet {
+    width: 85%;
+  }
+
+  @include mobile {
+    flex-direction: column;
+    width: 85%;
+  }
 
   &__image {
-    width: 500px;
-    height: 300px;
+    width: 80%;
+    min-width: 250px;
     border-radius: 0.4rem;
     box-shadow: 0 5px 18px #888888;
+
+    @include mobile {
+      min-width: 220px;
+    }
   }
 
   &__header {
     margin-bottom: 1rem;
     font-weight: 600;
+    color: #f94144;
+
+    @include tablet {
+      font-size: 1.8rem;
+      min-width: 200px;
+    }
+
+    @include mobile {
+      font-size: 1.6rem;
+    }
   }
 
   &__info {
     margin: 3rem 3rem;
+    flex: 0.5;
+
+    @include mobile {
+      margin: 2rem 1.5rem;
+    }
+  }
+
+  &__view {
+    margin: 3rem 3rem;
+    flex: 0.5;
+
+    @include mobile {
+      margin: 1rem 1.5rem 2rem;
+    }
   }
 
   &__links {
@@ -29,18 +71,19 @@
   &__link {
     text-decoration: none;
     margin-right: 2rem;
-    border: 1px solid black;
+    border: 1px solid #f94144;
     padding: 0.8rem 1rem;
     border-radius: 0.4rem;
-    box-shadow: 0 5px 18px #888888;
-    color: #000;
+    color: #f94144;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em adjust-hue($color: purple, $degrees: 45deg);
+    transform: translateY(-0.25em);
   }
 
   &__stacks {
     margin: 1rem 0;
-  }
-
-  &__first {
-    background-color: #f9c74f;
   }
 }
