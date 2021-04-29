@@ -32,7 +32,7 @@ function Projects() {
       <Project
         className="project__third"
         title="Brainflix"
-        description="A video streaming site as Youtube where you you can upload new videos and interact via comments."
+        description="A video streaming site as Youtube where you can upload new videos and interact via comments."
         image={Brainflix}
         gitLink="https://github.com/farzanashampa7/farzana-shampa-brainflix"
         techStack="React, Sass, Node.js, Express"
